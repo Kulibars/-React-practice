@@ -4,8 +4,8 @@
                 "id": "001",  
             "login": "Anton",  
             "password": "qwerty123",  
-            "registedAt": "2050-09-22", 
-            "roleId": 0
+            "registed_at": "2050-09-22", 
+            "role_id": 0
         }
     ], 
     "roles": [
