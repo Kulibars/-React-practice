@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-import { DateSchema } from "yup";
 
 export const FooterContainer = ({ className }) => {
   const [city, setCity] = useState("");
@@ -9,7 +8,7 @@ export const FooterContainer = ({ className }) => {
 
   useEffect(() => {
     fetch(
-      "https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&lang=ru&appid=238b3e8a54c896478b69c96d293f5a46"
+      "https://api.openweathermap.org/data/2.5/weather?q=Gyumri&units=metric&lang=ru&appid=238b3e8a54c896478b69c96d293f5a46"
     )
       .then((res) => res.json())
       .then(({ name, main, weather }) => {
