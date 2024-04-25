@@ -12,42 +12,14 @@
       "login": "Nata",
       "password": "0987654321",
       "registed_at": "2047-12-24 08:10",
-      "role_id": 2
-    },
-    {
-      "id": "f5c4",
-      "login": "Daddad",
-      "password": "qwerty12345",
-      "registed_at": "2042-12-25 22:39",
-      "role_id": 2
-    },
-    {
-      "id": "3cd6",
-      "login": "ivan",
-      "password": "1234567890",
-      "registed_at": "2060-07-16 13:53",
-      "role_id": 2
-    },
-    {
-      "id": "c72f",
-      "login": "Kulibars1991",
-      "password": "1234554321",
-      "registed_at": "2059-05-27 22:23",
-      "role_id": 2
-    },
-    {
-      "id": "417e",
-      "login": "Vanna",
-      "password": "qwerty12345",
-      "registed_at": "2038-10-25 22:01",
-      "role_id": 2
+      "role_id": 1
     },
     {
       "id": "2b89",
       "login": "pizda",
       "password": "1234567890",
       "registed_at": "2051-04-02 21:31",
-      "role_id": 2
+      "role_id": 1
     }
   ],
   "roles": [
@@ -62,6 +34,10 @@
     {
       "id": "2",
       "name": "Пользователь"
+    },
+    {
+      "id": 3,
+      "name": "Гость"
     }
   ],
   "posts": [
