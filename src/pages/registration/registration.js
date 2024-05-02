@@ -68,6 +68,7 @@ const ReristrationContainer = ({ className }) => {
       }
 
       dispatch(setUserAction(res));
+      sessionStorage.setItem("userData", JSON.stringify(res));
     });
   };
 

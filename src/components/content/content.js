@@ -17,6 +17,4 @@ const ContentContainer = ({ children, error }) =>
     children
   );
 
-export const Content = styled(ContentContainer)`
-  padding: 120px 0;
-`;
+export const Content = styled(ContentContainer)``;
