@@ -15,7 +15,7 @@ const SearchContainer = ({ className, searchPhrase, onChange }) => {
 };
 export const Search = styled(SearchContainer)`
   display: flex;
-?
+  position: relative;
   width: 320px;
   height: 40px;
   margin: 40px auto 0;

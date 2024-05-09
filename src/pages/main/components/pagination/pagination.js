@@ -16,8 +16,7 @@ const PaginationContainer = ({ className, setPage, page, lastPage }) => {
       </Button>
       <Button disabled={page === lastPage} onClick={() => setPage(lastPage)}>
         В конец
-      </Button>{" "}
-      disabled={}
+      </Button>
     </div>
   );
 };
