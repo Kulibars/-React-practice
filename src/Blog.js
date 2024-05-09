@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import { Header, Footer, Modal } from "./components";
+import { Error, Header, Footer, Modal } from "./components";
 import styled from "styled-components";
 import { Authorization, Post, Reristration, Users, Main } from "./pages";
 import { useLayoutEffect } from "react";
+import { ERROR } from "./constants";
 import { setUserAction } from "./actions";
 import { useDispatch } from "react-redux";
 
@@ -53,8 +54,7 @@ export const Blog = () => {
             <Route path="/post" element={<Post />} />
             <Route path="/post/:id" element={<Post />} />
             <Route path="/post/:id/edit" element={<Post />} />
-            <Route path="/post/:id/*" element={<div>Ошибка</div>} />
-            <Route path="*" element={<div>Ошибка</div>} />
+            <Route path="*" element={<Error error={ERROR.PAGE_NOT_EXIST} />} />
           </Routes>
         </Page>
         <Footer />

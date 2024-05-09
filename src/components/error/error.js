@@ -5,16 +5,13 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 18px;
 `;
 
-const ContentContainer = ({ children, error }) =>
-  error ? (
-    <>
+export const Error = ({ error }) =>
+  error && (
+    <div>
       <H2>ОШИБКА</H2>
       <Div>{error}</Div>
-    </>
-  ) : (
-    children
+    </div>
   );
-
-export const Content = styled(ContentContainer)``;
