@@ -12,7 +12,7 @@
       "login": "Nata",
       "password": "0987654321",
       "registed_at": "2047-12-24 08:10",
-      "role_id": 2
+      "role_id": 1
     },
     {
       "login": "Kulibars123",
@@ -24,19 +24,19 @@
   ],
   "roles": [
     {
-      "id": "0",
+      "id": 0,
       "name": "Администратор"
     },
     {
-      "id": "1",
+      "id": 1,
       "name": "Модератор"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Пользователь"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Гость"
     }
   ],
@@ -208,41 +208,6 @@
       "image_Url": "https://fastly.picsum.photos/id/385/280/150.jpg?hmac=RaAwtwPKaTgY9Jr7Q_tlNfrOwrvRzLps2gZT2cLVSak",
       "content": "sddddddddddddddddddddddddddddddddddddddddddddddd",
       "published_At": "2051-09-09 23:03"
-    },
-    {
-      "title": "1",
-      "image_Url": "1",
-      "content": "1",
-      "published_At": "2056-07-31 22:59",
-      "id": "TH8VtZG"
-    },
-    {
-      "title": "2",
-      "image_Url": "2",
-      "content": "2",
-      "published_At": "2062-05-13 05:02",
-      "id": "XPaBQ2z"
-    },
-    {
-      "title": "3",
-      "image_Url": "3",
-      "content": "3",
-      "published_At": "2039-10-02 05:47",
-      "id": "V4f6BZq"
-    },
-    {
-      "title": "4",
-      "image_Url": "4",
-      "content": "4",
-      "published_At": "2041-08-25 03:42",
-      "id": "h5_8S5O"
-    },
-    {
-      "title": "5",
-      "image_Url": "5",
-      "content": "5",
-      "published_At": "2059-04-14 02:06",
-      "id": "hOoq4HW"
     }
   ],
   "comments": [
@@ -524,6 +489,28 @@
         "roleId": 0
       },
       "id": "PKAZfvo"
+    },
+    {
+      "hash": "0.27669120325373341984231956303119659423828125000000000000000000000000000000000000",
+      "user": {
+        "id": "001",
+        "login": "Kulibars",
+        "password": "qwerty12345",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": "4IJ0GMB"
+    },
+    {
+      "hash": "0.35466536299765016870821909833466634154319763183593750000000000000000000000000000",
+      "user": {
+        "id": "001",
+        "login": "Kulibars",
+        "password": "qwerty12345",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": "Ehy1i8U"
     }
   ]
 }

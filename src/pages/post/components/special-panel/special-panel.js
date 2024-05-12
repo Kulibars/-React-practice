@@ -1,4 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
+import PropTypes from "prop-types";
 import { selectUserRole } from "../../../../selectors";
 import { useServerRequest } from "../../../../hooks";
 import { CLOSE_MODAL, openModal, removePostAsync } from "../../../../actions";
@@ -78,3 +79,9 @@ export const SpecialPanel = styled(SpecialPanelContainer)`
     top: -1px;
   }
 `;
+
+SpecialPanel.propTypes = {
+  id: PropTypes.string.isRequired,
+  publishedAt: PropTypes.string.isRequired,
+  editButton: PropTypes.node.isRequired,
+};

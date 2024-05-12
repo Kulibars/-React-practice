@@ -10,7 +10,7 @@ import styled from "styled-components";
 import { ROLE } from "../../constants";
 
 const PostContainer = ({ className }) => {
-  const [error, setError] = useState(true);
+  const [error, setError] = useState(null);
   const post = useSelector(selectPost);
   const dispatch = useDispatch();
   const params = useParams();
